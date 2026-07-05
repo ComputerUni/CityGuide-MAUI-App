@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{015B6CCE-6A50-4604-B304-E72DDD2604A6}|CityGuide.Maui.csproj|c:\\users\\burhan\\desktop\\maui\\cityguide.maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{015B6CCE-6A50-4604-B304-E72DDD2604A6}|CityGuide.Maui.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9010D079-85C3-B7B0-389B-AC10D2C6BE22}|CityGuide.Maui.csproj|c:\\users\\burhan\\desktop\\maui\\cityguide.maui\\views\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9010D079-85C3-B7B0-389B-AC10D2C6BE22}|CityGuide.Maui.csproj|solutionrelative:views\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{015B6CCE-6A50-4604-B304-E72DDD2604A6}|CityGuide.Maui.csproj|c:\\users\\burhan\\desktop\\maui\\cityguide.maui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{015B6CCE-6A50-4604-B304-E72DDD2604A6}|CityGuide.Maui.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9010D079-85C3-B7B0-389B-AC10D2C6BE22}|CityGuide.Maui.csproj|c:\\users\\burhan\\desktop\\maui\\cityguide.maui\\views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9010D079-85C3-B7B0-389B-AC10D2C6BE22}|CityGuide.Maui.csproj|solutionrelative:views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9010D079-85C3-B7B0-389B-AC10D2C6BE22}|CityGuide.Maui.csproj|c:\\users\\burhan\\desktop\\maui\\cityguide.maui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9010D079-85C3-B7B0-389B-AC10D2C6BE22}|CityGuide.Maui.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9010D079-85C3-B7B0-389B-AC10D2C6BE22}|CityGuide.Maui.csproj|c:\\users\\burhan\\desktop\\maui\\cityguide.maui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9010D079-85C3-B7B0-389B-AC10D2C6BE22}|CityGuide.Maui.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9010D079-85C3-B7B0-389B-AC10D2C6BE22}|CityGuide.Maui.csproj|c:\\users\\burhan\\desktop\\maui\\cityguide.maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9010D079-85C3-B7B0-389B-AC10D2C6BE22}|CityGuide.Maui.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9010D079-85C3-B7B0-389B-AC10D2C6BE22}|CityGuide.Maui.csproj|c:\\users\\burhan\\desktop\\maui\\cityguide.maui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9010D079-85C3-B7B0-389B-AC10D2C6BE22}|CityGuide.Maui.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 646,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,6 +59,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "WelcomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\Views\\WelcomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\WelcomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\Views\\WelcomePage.xaml.cs",
+              "RelativeToolTip": "Views\\WelcomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T19:40:12.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T19:30:11.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-05T19:30:00.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WelcomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\Views\\WelcomePage.xaml",
+              "RelativeDocumentMoniker": "Views\\WelcomePage.xaml",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\Views\\WelcomePage.xaml",
+              "RelativeToolTip": "Views\\WelcomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-05T19:29:33.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
@@ -50,18 +118,17 @@
               "RelativeToolTip": "MainPage.xaml.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAswAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T11:53:29.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T11:53:29.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAwCsAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-07-05T11:41:16.563Z",
               "EditorCaption": ""

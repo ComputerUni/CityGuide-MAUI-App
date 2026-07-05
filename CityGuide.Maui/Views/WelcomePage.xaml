@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CityGuide.Maui.Views.WelcomePage"
+             Title="WelcomePage">
+
+    <Grid RowDefinitions="Auto, *">
+
+        <Grid Grid.Row="0"
+              HeightRequest="64"
+              ColumnDefinitions="*, Auto"
+              Padding="20,0"
+              BackgroundColor="#F8F9FA">
+
+            <Label Grid.Column="0"
+                   Text="Milano City Guide"
+                   TextColor="#0D47A1"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start" />
+
+            <Label Grid.Column="1"
+                   Text="🌐"
+                   FontSize="22"
+                   VerticalOptions="Center"
+                   HorizontalOptions="End" />
+        </Grid>
+
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Spacing="0">
+                <BoxView HeightRequest="400" Color="#D4AF37" />
+                <BoxView HeightRequest="250" Color="#00796B" />
+                <BoxView HeightRequest="350" Color="#455A64" />
+                <BoxView HeightRequest="120" Color="#191C1D" />
+            </VerticalStackLayout>
+        </ScrollView>
+
+    </Grid>
+
+</ContentPage>
