@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CityGuide.Maui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+910d505094d358b39d20d15137c33e139938c84a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3f97dd24bc9d6584351a25e5a69af87db8c3f3db")]
 [assembly: System.Reflection.AssemblyProductAttribute("CityGuide.Maui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CityGuide.Maui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
