@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 646,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,6 +58,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WelcomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\Views\\WelcomePage.xaml",
+              "RelativeDocumentMoniker": "Views\\WelcomePage.xaml",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\Views\\WelcomePage.xaml",
+              "RelativeToolTip": "Views\\WelcomePage.xaml",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAkwMIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-06T12:06:43.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\App.xaml.cs",
@@ -66,19 +79,7 @@
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T19:30:11.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WelcomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\Views\\WelcomePage.xaml",
-              "RelativeDocumentMoniker": "Views\\WelcomePage.xaml",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\MAUI\\CityGuide.Maui\\Views\\WelcomePage.xaml",
-              "RelativeToolTip": "Views\\WelcomePage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-05T19:29:33.327Z",
+              "WhenOpened": "2026-07-05T19:30:11.551Z",
               "EditorCaption": ""
             },
             {
@@ -91,7 +92,8 @@
               "RelativeToolTip": "Views\\WelcomePage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T19:40:12.447Z"
+              "WhenOpened": "2026-07-05T19:40:12.447Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
