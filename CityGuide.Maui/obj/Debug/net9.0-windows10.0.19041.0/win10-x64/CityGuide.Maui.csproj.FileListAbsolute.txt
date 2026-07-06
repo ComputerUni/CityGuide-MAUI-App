@@ -518,3 +518,5 @@ C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-windows10.0.19041.0
 C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\hero_milano.scale-100.png
 C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\profile.scale-100.png
 C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-100.png
+C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\malpensa.scale-100.png
+C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\malpensa.scale-100.png
