@@ -1,0 +1,132 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CityGuide.Maui.Views.TransportationPage"
+             Title="TransportationPage">
+
+    <!-- ANA GRID: 3 satır.
+         0 (Auto) = Üst App Bar   -> sabit
+         1 (*)    = ScrollView    -> kayar
+         2 (Auto) = Alt Nav Bar   -> sabit -->
+    <Grid RowDefinitions="Auto, *, Auto">
+
+        <!-- ============ ÜST APP BAR ============ -->
+        <Grid Grid.Row="0"
+      HeightRequest="64"
+      ColumnDefinitions="Auto, *, Auto"
+      Padding="20,0"
+      ColumnSpacing="12"
+      BackgroundColor="#F8F9FA">
+
+            <!-- Menü (hamburger) ikonu -->
+            <Label Grid.Column="0"
+           Text="☰"
+           FontSize="26"
+           TextColor="#0D47A1"
+           VerticalOptions="Center" />
+
+            <!-- Başlık -->
+            <Label Grid.Column="1"
+           Text="Milano Şehir Rehberi"
+           TextColor="#0D47A1"
+           FontSize="24"
+           FontAttributes="Bold"
+           VerticalOptions="Center" />
+
+            <!-- Profil buraya gelecek (Adım 2) -->
+            <!-- Dairesel profil fotoğrafı -->
+            <Border Grid.Column="2"
+        WidthRequest="36"
+        HeightRequest="36"
+        StrokeThickness="1"
+        Stroke="#C3C6D4"
+        StrokeShape="RoundRectangle 18"
+        VerticalOptions="Center"
+        >
+
+                <Image Source="profile.png"
+           Aspect="AspectFill" />
+
+            </Border>
+
+
+        </Grid>
+
+        <!-- ============ KAYAN İÇERİK ============ -->
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Spacing="0">
+
+                <!-- HERO / BAŞLIK -->
+                <VerticalStackLayout Padding="20,24,20,10" Spacing="4">
+
+                    <!-- Üst etiket: label-sm, büyük harf, geniş harf aralığı -->
+                    <Label Text="ULAŞIM REHBERİ"
+           TextColor="#455A64"
+           FontSize="12"
+           FontAttributes="Bold"
+           CharacterSpacing="2" />
+
+                    <!-- Büyük başlık: display 40/700 -->
+                    <Label Text="Milano'da Ulaşım"
+           TextColor="#0D47A1"
+           FontSize="32"
+           FontAttributes="Bold" />
+
+                    <!-- Açıklama: body-lg 18/400 -->
+                    <Label Text="Milano'da bir yerli hassasiyetiyle yol alın. Tarihi tramvaylardan yüksek hızlı metro hatlarına kadar, şehri keşfetmenin en verimli yollarını öğrenin."
+           TextColor="#434652"
+           FontSize="18"
+           Margin="0,8,0,0" />
+
+                </VerticalStackLayout>
+
+                <!-- BENTO GRID -->
+                <BoxView HeightRequest="220" Color="#00796B" />
+
+                <!-- METRO HATLARI -->
+                <BoxView HeightRequest="300" Color="#455A64" />
+
+                <!-- TRAMS & SURFACE -->
+                <BoxView HeightRequest="240" Color="#735C00" />
+
+                <!-- AIRPORT TRANSFERS -->
+                <BoxView HeightRequest="320" Color="#602100" />
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- ============ ALT NAV BAR ============ -->
+        <Grid Grid.Row="2"
+      ColumnDefinitions="*, *, *, *"
+      Padding="0,8"
+      BackgroundColor="#F8F9FA">
+
+            <!-- Home -->
+            <VerticalStackLayout Grid.Column="0" Spacing="2" HorizontalOptions="Center">
+                <Label Text="🏠" FontSize="22" HorizontalOptions="Center" />
+                <Label Text="Ana Sayfa" FontSize="12" TextColor="#455A64" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Discover -->
+            <VerticalStackLayout Grid.Column="1" Spacing="2" HorizontalOptions="Center">
+                <Label Text="🧭" FontSize="22" HorizontalOptions="Center" />
+                <Label Text="Keşfet" FontSize="12" TextColor="#455A64" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Favorites -->
+            <VerticalStackLayout Grid.Column="2" Spacing="2" HorizontalOptions="Center">
+                <Label Text="❤️" FontSize="22" HorizontalOptions="Center" />
+                <Label Text="Favoriler" FontSize="12" TextColor="#455A64" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Profile -->
+            <VerticalStackLayout Grid.Column="3" Spacing="2" HorizontalOptions="Center">
+                <Label Text="👤" FontSize="22" HorizontalOptions="Center" />
+                <Label Text="Profil" FontSize="12" TextColor="#455A64" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+        </Grid>
+
+
+    </Grid>
+
+</ContentPage>
