@@ -33,7 +33,12 @@
             <VerticalStackLayout Spacing="0">
 
                 <!-- ============ HERO ============ -->
-                <BoxView HeightRequest="400" Color="#D4AF37" />
+                <Grid HeightRequest="400">
+
+                    <Image Source="hero_milano.png"
+           Aspect="AspectFill" />
+
+                </Grid>
 
                 <!-- ============ CONTENT ============ -->
                 <VerticalStackLayout Padding="20,24" Spacing="16">
@@ -80,7 +85,6 @@
 
                 <!-- ============ AUTH CARD ============ -->
                 <BoxView HeightRequest="350" Color="#455A64" />
-
 
                 <!-- ============ FOOTER ============ -->
                 <VerticalStackLayout Padding="20,24" Spacing="16">
