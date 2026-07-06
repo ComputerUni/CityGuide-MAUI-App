@@ -6,6 +6,7 @@
 
     <Grid RowDefinitions="Auto, *">
 
+        <!-- ============ HEADER ============ -->
         <Grid Grid.Row="0"
               HeightRequest="64"
               ColumnDefinitions="*, Auto"
@@ -27,20 +28,70 @@
                    HorizontalOptions="End" />
         </Grid>
 
+        <!-- ============ SCROLL EDEN ALAN ============ -->
         <ScrollView Grid.Row="1">
             <VerticalStackLayout Spacing="0">
+
+                <!-- ============ HERO ============ -->
                 <BoxView HeightRequest="400" Color="#D4AF37" />
-                <BoxView HeightRequest="250" Color="#00796B" />
-                <BoxView HeightRequest="350" Color="#455A64" />
-                <BoxView HeightRequest="120" Color="#191C1D" />
-                <!-- ============ FOOTER ============ -->
+
+                <!-- ============ CONTENT ============ -->
                 <VerticalStackLayout Padding="20,24" Spacing="16">
 
+                    <Label 
+                        Text="Duomo'nun gotik ihtişamından Brera'nın gizli avlularına kadar Milano'yu gerçek bir yerli gibi keşfedin. Özenle seçilmiş mimari, dünya standartlarında lezzetler ve İtalyan yaşam tarzının zarafetini deneyimleyin."
+                        TextColor="#455A64"
+                        FontSize="16"
+                        LineHeight="1.4" 
+                    />
+
+                    <Grid ColumnDefinitions="*, *" ColumnSpacing="16">
+
+                        <!-- Kart 1: Seçkin Sanat -->
+                        <Border Grid.Column="0"
+            Stroke="#C3C6D4"
+            StrokeThickness="1"
+            BackgroundColor="#F3F4F5"
+            Padding="16"
+            StrokeShape="RoundRectangle 12">
+                            <HorizontalStackLayout Spacing="8">
+                                <Label Text="🏛" FontSize="22" TextColor="#0D47A1" VerticalOptions="Center" />
+                                <Label Text="Seçkin Sanat" FontSize="14" TextColor="#191C1D" VerticalOptions="Center" />
+                            </HorizontalStackLayout>
+                        </Border>
+
+                        <!-- Kart 2: Seçkin Lezzetler -->
+                        <Border Grid.Column="1"
+            Stroke="#C3C6D4"
+            StrokeThickness="1"
+            BackgroundColor="#F3F4F5"
+            Padding="16"
+            StrokeShape="RoundRectangle 12">
+                            <HorizontalStackLayout Spacing="8">
+                                <Label Text="🍽" FontSize="22" TextColor="#0D47A1" VerticalOptions="Center" />
+                                <Label Text="Seçkin Lezzetler" FontSize="14" TextColor="#191C1D" VerticalOptions="Center" />
+                            </HorizontalStackLayout>
+                        </Border>
+
+                    </Grid>
+
+
+                </VerticalStackLayout>
+
+                <!-- ============ AUTH CARD ============ -->
+                <BoxView HeightRequest="350" Color="#455A64" />
+
+
+                <!-- ============ FOOTER ============ -->
+                <VerticalStackLayout Padding="20,24" Spacing="16">
                     <BoxView HeightRequest="1"
                         Color="#C3C6D4"
                         HorizontalOptions="Fill" />
 
+                    <!-- ============ Telif sol, linkler sağ: Grid ile iki ucu yaslama ============ -->
                     <Grid ColumnDefinitions="*, Auto">
+
+                        <!-- ============ Sol: Telif metni ============ -->
                         <Label Grid.Column="0"
                             Text="2026 Milano Şehir Rehberi. Tüm hakları saklıdır."
                             TextColor="#737783"
@@ -48,6 +99,7 @@
                             VerticalOptions="Center" 
                         />
 
+                        <!-- ============ Sağ: Linkler yan yana ============ -->
                         <HorizontalStackLayout Grid.Column="1" Spacing="24">
                             <Label Text="Explore" TextColor="#737783" FontSize="12" />
                             <Label Text="Concierge" TextColor="#737783" FontSize="12" />
@@ -55,6 +107,9 @@
                         </HorizontalStackLayout>
 
                     </Grid>
+
+
+
                 </VerticalStackLayout>
             </VerticalStackLayout>
         </ScrollView>
