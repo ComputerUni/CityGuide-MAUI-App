@@ -520,3 +520,8 @@ C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-windows10.0.19041.0
 C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-100.png
 C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\malpensa.scale-100.png
 C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\malpensa.scale-100.png
+C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SQLite-net.dll
+C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
+C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
+C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll

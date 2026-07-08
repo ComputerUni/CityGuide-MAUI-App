@@ -10,7 +10,7 @@
         protected override Window CreateWindow(IActivationState? activationState)
         {
             //Başlangıç ekranı için App.xaml.cs dosyasında başlangıç ekranını burada belirliyoruz.
-            return new Window(new Views.TransportationPage());
+            return new Window(new Views.CulturePage());
         }
     }
 }
