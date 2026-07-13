@@ -296,3 +296,10 @@ C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\obj\Debug\net9.0-maccatalyst\maccata
 C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\CityGuide.Maui.pdb
 C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\CityGuide.Maui.genruntimeconfig.cache
 C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ref\CityGuide.Maui.dll
+C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\SQLite-net.dll
+C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.batteries_v2.dll
+C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.core.dll
+C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libe_sqlite3.dylib
+C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\malpensa.png
+C:\Users\BURHAN\Desktop\MAUI\CityGuide.Maui\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\profile.png

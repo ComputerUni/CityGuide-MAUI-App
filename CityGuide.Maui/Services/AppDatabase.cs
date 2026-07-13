@@ -30,6 +30,7 @@ namespace CityGuide.Maui.Services
             // Code-first: modellere bakıp tabloları oluştur (yoksa)
             await _database.CreateTableAsync<Category>();
             await _database.CreateTableAsync<Event>();
+            await _database.CreateTableAsync<User>();
         }
 
         // --- Okuma metotları ---
@@ -86,6 +87,20 @@ namespace CityGuide.Maui.Services
         {
             await InitAsync();
             return await _database.InsertAsync(newEvent);
+        }
+
+        public async Task<int> AddUserAsync(User user)
+        {
+            await InitAsync();
+            return await _database.InsertAsync(user);
+        }
+
+        public async Task<User?> GetUserByEmailAsync(string email)
+        {
+            await InitAsync();
+            return await _database.Table<User>()
+                                  .Where(u => u.Email == email)
+                                  .FirstOrDefaultAsync();
         }
     }
 }
